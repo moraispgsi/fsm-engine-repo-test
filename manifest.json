@@ -61,6 +61,10 @@
             "instance14": {
               "route": "machines/conference/versions/version1/instances/instance14",
               "snapshots": {}
+            },
+            "instance15": {
+              "route": "machines/conference/versions/version1/instances/instance15",
+              "snapshots": {}
             }
           }
         }
