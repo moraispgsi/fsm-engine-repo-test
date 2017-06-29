@@ -33,6 +33,10 @@
             "instance7": {
               "route": "machines/conference/versions/version1/instances/instance7",
               "snapshots": {}
+            },
+            "instance8": {
+              "route": "machines/conference/versions/version1/instances/instance8",
+              "snapshots": {}
             }
           }
         }
