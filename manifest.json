@@ -8,7 +8,11 @@
           "instances": {
             "instance1": {
               "route": "machines/keynote/versions/version1/instances/instance1",
-              "snapshots": {}
+              "snapshots": {
+                "snapshot1": {
+                  "route": "machines/keynote/versions/version1/instances/instance1/snapshots/snapshot1"
+                }
+              }
             }
           }
         }
