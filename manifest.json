@@ -15,6 +15,10 @@
               }
             }
           }
+        },
+        "version2": {
+          "route": "machines/keynote/versions/version2",
+          "instances": {}
         }
       }
     }
