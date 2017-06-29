@@ -1,14 +1,5 @@
 {
   "machines": {
-    "deadline": {
-      "route": "machines/deadline",
-      "versions": {
-        "version1": {
-          "route": "machines/deadline/versions/version1",
-          "instances": {}
-        }
-      }
-    },
     "keynote": {
       "route": "machines/keynote",
       "versions": {
