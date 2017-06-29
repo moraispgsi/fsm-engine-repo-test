@@ -5,7 +5,12 @@
       "versions": {
         "version1": {
           "route": "machines/keynote/versions/version1",
-          "instances": {}
+          "instances": {
+            "instance1": {
+              "route": "machines/keynote/versions/version1/instances/instance1",
+              "snapshots": {}
+            }
+          }
         }
       }
     }
