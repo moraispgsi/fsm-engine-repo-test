@@ -1,3 +1,13 @@
 {
-  "machines": {}
+  "machines": {
+    "conference": {
+      "route": "machines/conference",
+      "versions": {
+        "version1": {
+          "route": "machines/conference/versions/version1",
+          "instances": {}
+        }
+      }
+    }
+  }
 }
