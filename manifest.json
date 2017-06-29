@@ -8,6 +8,15 @@
           "instances": {}
         }
       }
+    },
+    "keynote": {
+      "route": "machines/keynote",
+      "versions": {
+        "version1": {
+          "route": "machines/keynote/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
