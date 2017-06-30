@@ -205,6 +205,10 @@
             "instance50": {
               "route": "machines/conference/versions/version1/instances/instance50",
               "snapshots": {}
+            },
+            "instance51": {
+              "route": "machines/conference/versions/version1/instances/instance51",
+              "snapshots": {}
             }
           }
         }
