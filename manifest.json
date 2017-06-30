@@ -277,6 +277,10 @@
             "instance68": {
               "route": "machines/conference/versions/version1/instances/instance68",
               "snapshots": {}
+            },
+            "instance69": {
+              "route": "machines/conference/versions/version1/instances/instance69",
+              "snapshots": {}
             }
           }
         }
