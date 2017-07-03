@@ -632,6 +632,10 @@
             "instance22": {
               "route": "machines/deadline/versions/version4/instances/instance22",
               "snapshots": {}
+            },
+            "instance23": {
+              "route": "machines/deadline/versions/version4/instances/instance23",
+              "snapshots": {}
             }
           }
         }
