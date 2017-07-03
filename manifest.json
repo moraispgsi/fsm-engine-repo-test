@@ -809,6 +809,10 @@
             "instance62": {
               "route": "machines/deadline/versions/version4/instances/instance62",
               "snapshots": {}
+            },
+            "instance63": {
+              "route": "machines/deadline/versions/version4/instances/instance63",
+              "snapshots": {}
             }
           }
         }
