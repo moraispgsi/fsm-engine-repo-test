@@ -509,6 +509,15 @@
           "instances": {}
         }
       }
+    },
+    "conferednce": {
+      "route": "machines/conferednce",
+      "versions": {
+        "version1": {
+          "route": "machines/conferednce/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
