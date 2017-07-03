@@ -503,6 +503,10 @@
               "snapshots": {}
             }
           }
+        },
+        "version2": {
+          "route": "machines/conference/versions/version2",
+          "instances": {}
         }
       }
     }
