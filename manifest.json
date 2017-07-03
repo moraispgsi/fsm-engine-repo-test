@@ -510,7 +510,12 @@
         },
         "version2": {
           "route": "machines/conference/versions/version2",
-          "instances": {}
+          "instances": {
+            "instance1": {
+              "route": "machines/conference/versions/version2/instances/instance1",
+              "snapshots": {}
+            }
+          }
         },
         "version3": {
           "route": "machines/conference/versions/version3",
