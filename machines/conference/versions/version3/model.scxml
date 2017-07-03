@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scxml xmlns="http://www.w3.org/2005/07/scxml" version="1.0" binding="early" 
+    xmlns:engine="https://insticc.org/fsm-engine"
+    xmlns:cms="https://insticc.org/cms" 
+    name="Conference"
+    initial="pre-running">
+    <datamodel>
+        <data id="conferenceName" expr="null"/>
+        <data id="travelAccommodationVisible" expr="false"/>
+    </datamodel>
+    <state id="pre-running">
+        <initial>
+            <transition type="external" target="uninitialized"/>
+        </initial>
+        <state id="uninitialized">
+            <transition type="internal" event="init">
+                <assign location="conferenceName" expr="_event.conferenceName"/>
+                <engine:schedule event="30daysAfter" exprDate="Date.today().addMonths(1)" job="schedule-conference"/>
+            </transition>
+            <transition type="external" event="30daysAfter" target="running"/>
+        </state>
+    </state>
+    <parallel id="running">
+        <state id="online_registration">
+            <state id="online_registration.waiting">
+                <transition type="external" event="price_table_inserted" target="online_registration.available"/>
+            </state>
+            <state id="online_registration.available">
+                <onentry>
+                    <cms:changeVisibility exprName="conferenceName" id="online_registration_list_menu"  visibility="true"/>
+                </onentry>
+            </state>
+        </state>
+        <parallel id="travel_accommodation">
+            <state id="conference_venue">
+                <state id="conference_venue.invisible">
+                    <transition type="external" event="conference_venue_inserted" target="conference_venue.visible"/>
+                </state>
+                <state id="conference_venue.visible">
+                    <onentry>
+                        <cms:changeVisibility exprName="conferenceName" id="conference_venue_list_menu_item"  visibility="true"/>
+                    </onentry>
+                </state>
+            </state>
+            <state id="visa_information">
+                <state id="visa_information.invisible">
+                    <transition type="external" event="visa_information_inserted" target="visa_information.visible"/>
+                </state>
+                <state id="visa_information.visible">
+                    <onentry>
+                        <cms:changeVisibility exprName="conferenceName" id="about_the_region_list_menu_item"  visibility="true"/>
+                    </onentry>
+                </state>
+            </state>
+            <state id="reaching_the_city">
+                <state id="reaching_the_city.invisible">
+                    <transition type="external" event="reaching_the_city.inserted" target="reaching_the_city.visible"/>
+                </state>
+                <state id="reaching_the_city.visible">
+                    <onentry>
+                        <cms:changeVisibility exprName="conferenceName" id="reaching_the_city_list_menu_item"  visibility="true"/>
+                    </onentry>
+                </state>
+            </state>
+            <state id="about_the_region">
+                <state id="about_the_region.invisible">
+                    <transition type="external" event="about_the_region.inserted" target="about_the_region.visible"/>
+                </state>
+                <state id="about_the_region.visible">
+                    <onentry>
+                        <cms:changeVisibility exprName="conferenceName" id="visa_information_list_menu_item"  visibility="true"/>
+                    </onentry>
+                </state>
+            </state>
+        </parallel>
+        <state id="chairs" initial="chairs.invisible">
+            <state id="chairs.invisible">
+                <transition type="external" event="chairs_visible" target="chairs.visible"/>
+            </state>
+            <state id="chairs.visible">
+                <onentry>
+                    <cms:changeVisibility exprName="conferenceName" id="chairs_list_menu_item"  visibility="true"/>
+                </onentry>
+            </state>
+        </state>
+        <state id="program_committee" initial="program_committee.invisible">
+            <state id="program_committee.invisible">
+                <onentry>
+                    <cms:changeVisibility exprName="conferenceName" id="program_committee_list_menu"  visibility="true"/>
+                </onentry>
+            </state>
+            <state id="program_committee.visible"/>
+        </state>
+        <transition type="external" event="end_conference" target="pos-running"/>
+    </parallel>
+
+    <final id="pos-running">
+        <onentry>
+            <cms:changeVisibility exprName="conferenceName" id="action_menu"  visibility="false"/>
+            <cms:changeVisibility exprName="conferenceName" id="travel_accommodation_list_menu"  visibility="false"/>
+            <cms:changeVisibility exprName="conferenceName" id="invited_speakers_menu_item"  visibility="false"/>
+            <cms:changeVisibility exprName="conferenceName" id="books_published_menu_item"  visibility="false"/>
+        </onentry>
+    </final>
+
+</scxml>

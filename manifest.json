@@ -507,6 +507,10 @@
         "version2": {
           "route": "machines/conference/versions/version2",
           "instances": {}
+        },
+        "version3": {
+          "route": "machines/conference/versions/version3",
+          "instances": {}
         }
       }
     },
