@@ -640,6 +640,10 @@
             "instance24": {
               "route": "machines/deadline/versions/version4/instances/instance24",
               "snapshots": {}
+            },
+            "instance25": {
+              "route": "machines/deadline/versions/version4/instances/instance25",
+              "snapshots": {}
             }
           }
         }
