@@ -813,6 +813,10 @@
             "instance63": {
               "route": "machines/deadline/versions/version4/instances/instance63",
               "snapshots": {}
+            },
+            "instance64": {
+              "route": "machines/deadline/versions/version4/instances/instance64",
+              "snapshots": {}
             }
           }
         }
