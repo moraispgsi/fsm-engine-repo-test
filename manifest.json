@@ -541,6 +541,10 @@
         "version3": {
           "route": "machines/deadline/versions/version3",
           "instances": {}
+        },
+        "version4": {
+          "route": "machines/deadline/versions/version4",
+          "instances": {}
         }
       }
     }
