@@ -556,6 +556,10 @@
             "instance3": {
               "route": "machines/deadline/versions/version4/instances/instance3",
               "snapshots": {}
+            },
+            "instance4": {
+              "route": "machines/deadline/versions/version4/instances/instance4",
+              "snapshots": {}
             }
           }
         }
