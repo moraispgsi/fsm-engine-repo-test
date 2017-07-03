@@ -580,6 +580,10 @@
             "instance9": {
               "route": "machines/deadline/versions/version4/instances/instance9",
               "snapshots": {}
+            },
+            "instance10": {
+              "route": "machines/deadline/versions/version4/instances/instance10",
+              "snapshots": {}
             }
           }
         }
