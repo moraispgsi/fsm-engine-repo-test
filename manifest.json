@@ -624,6 +624,15 @@
           "instances": {}
         }
       }
+    },
+    "openCommunicationsProposal": {
+      "route": "machines/openCommunicationsProposal",
+      "versions": {
+        "version1": {
+          "route": "machines/openCommunicationsProposal/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
