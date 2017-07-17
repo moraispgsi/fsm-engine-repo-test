@@ -544,15 +544,6 @@
         }
       }
     },
-    "positionPapers.authorsNotification": {
-      "route": "machines/positionPapers.authorsNotification",
-      "versions": {
-        "version1": {
-          "route": "machines/positionPapers.authorsNotification/versions/version1",
-          "instances": {}
-        }
-      }
-    },
     "positionPapers.cameraReady": {
       "route": "machines/positionPapers.cameraReady",
       "versions": {
