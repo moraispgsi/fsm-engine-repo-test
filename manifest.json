@@ -615,6 +615,15 @@
           "instances": {}
         }
       }
+    },
+    "keynoteSpeaker": {
+      "route": "machines/keynoteSpeaker",
+      "versions": {
+        "version1": {
+          "route": "machines/keynoteSpeaker/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
