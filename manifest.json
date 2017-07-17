@@ -633,6 +633,15 @@
           "instances": {}
         }
       }
+    },
+    "programCommittee": {
+      "route": "machines/programCommittee",
+      "versions": {
+        "version1": {
+          "route": "machines/programCommittee/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
