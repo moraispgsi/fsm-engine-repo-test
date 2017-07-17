@@ -570,6 +570,15 @@
           "instances": {}
         }
       }
+    },
+    "completePapers.paperSubmission": {
+      "route": "machines/completePapers.paperSubmission",
+      "versions": {
+        "version1": {
+          "route": "machines/completePapers.paperSubmission/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
