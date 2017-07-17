@@ -606,6 +606,15 @@
           "instances": {}
         }
       }
+    },
+    "Event": {
+      "route": "machines/Event",
+      "versions": {
+        "version1": {
+          "route": "machines/Event/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
