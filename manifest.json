@@ -544,15 +544,6 @@
         }
       }
     },
-    "doctoralConsortiumProposal": {
-      "route": "machines/doctoralConsortiumProposal",
-      "versions": {
-        "version1": {
-          "route": "machines/doctoralConsortiumProposal/versions/version1",
-          "instances": {}
-        }
-      }
-    },
     "deadline": {
       "route": "machines/deadline",
       "versions": {
