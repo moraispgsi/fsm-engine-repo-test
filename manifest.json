@@ -830,6 +830,15 @@
           "instances": {}
         }
       }
+    },
+    "completePapers.authorsNotification": {
+      "route": "machines/completePapers.authorsNotification",
+      "versions": {
+        "version1": {
+          "route": "machines/completePapers.authorsNotification/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
