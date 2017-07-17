@@ -588,6 +588,15 @@
           "instances": {}
         }
       }
+    },
+    "deadline": {
+      "route": "machines/deadline",
+      "versions": {
+        "version1": {
+          "route": "machines/deadline/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
