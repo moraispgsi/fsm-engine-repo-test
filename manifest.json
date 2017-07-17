@@ -544,15 +544,6 @@
         }
       }
     },
-    "openCommunicationsProposal": {
-      "route": "machines/openCommunicationsProposal",
-      "versions": {
-        "version1": {
-          "route": "machines/openCommunicationsProposal/versions/version1",
-          "instances": {}
-        }
-      }
-    },
     "programCommittee": {
       "route": "machines/programCommittee",
       "versions": {
