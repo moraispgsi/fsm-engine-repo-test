@@ -705,6 +705,15 @@
           "instances": {}
         }
       }
+    },
+    "workshopProposal": {
+      "route": "machines/workshopProposal",
+      "versions": {
+        "version1": {
+          "route": "machines/workshopProposal/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
