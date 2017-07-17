@@ -678,6 +678,15 @@
           "instances": {}
         }
       }
+    },
+    "positionPapers.paperSubmission": {
+      "route": "machines/positionPapers.paperSubmission",
+      "versions": {
+        "version1": {
+          "route": "machines/positionPapers.paperSubmission/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
