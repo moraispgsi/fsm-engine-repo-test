@@ -544,15 +544,6 @@
         }
       }
     },
-    "panelsProposal": {
-      "route": "machines/panelsProposal",
-      "versions": {
-        "version1": {
-          "route": "machines/panelsProposal/versions/version1",
-          "instances": {}
-        }
-      }
-    },
     "positionPapers.authorsNotification": {
       "route": "machines/positionPapers.authorsNotification",
       "versions": {
