@@ -597,6 +597,15 @@
           "instances": {}
         }
       }
+    },
+    "demosProposal": {
+      "route": "machines/demosProposal",
+      "versions": {
+        "version1": {
+          "route": "machines/demosProposal/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
