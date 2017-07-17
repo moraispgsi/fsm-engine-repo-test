@@ -543,6 +543,15 @@
           "instances": {}
         }
       }
+    },
+    "conferenceChair": {
+      "route": "machines/conferenceChair",
+      "versions": {
+        "version1": {
+          "route": "machines/conferenceChair/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
