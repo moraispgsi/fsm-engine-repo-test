@@ -544,15 +544,6 @@
         }
       }
     },
-    "keynoteSpeaker": {
-      "route": "machines/keynoteSpeaker",
-      "versions": {
-        "version1": {
-          "route": "machines/keynoteSpeaker/versions/version1",
-          "instances": {}
-        }
-      }
-    },
     "openCommunicationsProposal": {
       "route": "machines/openCommunicationsProposal",
       "versions": {
