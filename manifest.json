@@ -544,15 +544,6 @@
         }
       }
     },
-    "completePapers.authorsNotification": {
-      "route": "machines/completePapers.authorsNotification",
-      "versions": {
-        "version1": {
-          "route": "machines/completePapers.authorsNotification/versions/version1",
-          "instances": {}
-        }
-      }
-    },
     "completePapers.cameraReady": {
       "route": "machines/completePapers.cameraReady",
       "versions": {
