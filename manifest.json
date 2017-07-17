@@ -544,15 +544,6 @@
         }
       }
     },
-    "tutorialsProposal": {
-      "route": "machines/tutorialsProposal",
-      "versions": {
-        "version1": {
-          "route": "machines/tutorialsProposal/versions/version1",
-          "instances": {}
-        }
-      }
-    },
     "workshopProposal": {
       "route": "machines/workshopProposal",
       "versions": {
