@@ -544,15 +544,6 @@
         }
       }
     },
-    "specialSessionsProposal": {
-      "route": "machines/specialSessionsProposal",
-      "versions": {
-        "version1": {
-          "route": "machines/specialSessionsProposal/versions/version1",
-          "instances": {}
-        }
-      }
-    },
     "tutorialsProposal": {
       "route": "machines/tutorialsProposal",
       "versions": {
