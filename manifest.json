@@ -687,6 +687,15 @@
           "instances": {}
         }
       }
+    },
+    "specialSessionsProposal": {
+      "route": "machines/specialSessionsProposal",
+      "versions": {
+        "version1": {
+          "route": "machines/specialSessionsProposal/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
