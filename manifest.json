@@ -642,6 +642,15 @@
           "instances": {}
         }
       }
+    },
+    "programChair": {
+      "route": "machines/programChair",
+      "versions": {
+        "version1": {
+          "route": "machines/programChair/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
