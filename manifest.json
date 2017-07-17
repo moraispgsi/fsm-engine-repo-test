@@ -839,6 +839,15 @@
           "instances": {}
         }
       }
+    },
+    "completePapers.cameraReady": {
+      "route": "machines/completePapers.cameraReady",
+      "versions": {
+        "version1": {
+          "route": "machines/completePapers.cameraReady/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
