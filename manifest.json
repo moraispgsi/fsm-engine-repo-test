@@ -651,6 +651,15 @@
           "instances": {}
         }
       }
+    },
+    "panelsProposal": {
+      "route": "machines/panelsProposal",
+      "versions": {
+        "version1": {
+          "route": "machines/panelsProposal/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
