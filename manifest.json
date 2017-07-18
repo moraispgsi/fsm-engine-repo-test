@@ -660,6 +660,15 @@
           "instances": {}
         }
       }
+    },
+    "positionPapers.authorsNotification": {
+      "route": "machines/positionPapers.authorsNotification",
+      "versions": {
+        "version1": {
+          "route": "machines/positionPapers.authorsNotification/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
