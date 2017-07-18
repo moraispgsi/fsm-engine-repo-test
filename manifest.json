@@ -669,6 +669,15 @@
           "instances": {}
         }
       }
+    },
+    "positionPapers.cameraReady": {
+      "route": "machines/positionPapers.cameraReady",
+      "versions": {
+        "version1": {
+          "route": "machines/positionPapers.cameraReady/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
